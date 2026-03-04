@@ -16,7 +16,7 @@ function exibirRepositorio(repo: Repositorio): void {
     console.log(`Repositório: ${repo.nome}, Linguagem: ${repo.linguagem}, Estrelas: ${repo.estrelas}, Descrição: ${repo.descricao || "N/A"}`)
 }
 
-console.log(exibirRepositorio(repo));
+exibirRepositorio(repo);
         
 
 

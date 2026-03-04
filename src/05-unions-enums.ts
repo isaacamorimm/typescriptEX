@@ -17,4 +17,4 @@ function exibirStatus(status: Status){
     }
 }
 
-console.log(exibirStatus("entregue"))
+exibirStatus("entregue")

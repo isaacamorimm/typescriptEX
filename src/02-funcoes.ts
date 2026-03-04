@@ -5,4 +5,4 @@ function calcularDesconto(preco: number, desconto: number): number {
     return preco - preco * (desconto / 100)
 }
 
-console.log(calcularDesconto(preco, desconto));
+calcularDesconto(preco, desconto);
