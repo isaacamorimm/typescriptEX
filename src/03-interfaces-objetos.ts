@@ -5,7 +5,7 @@ interface Repositorio {
     descricao?: string;
 }
 
-const repo: Repositorio = {
+const meuRepo: Repositorio = {
     nome: "Isaac",
     linguagem: "TypeScript",
     estrelas: 5,
@@ -16,7 +16,7 @@ function exibirRepositorio(repo: Repositorio): void {
     console.log(`Repositório: ${repo.nome}, Linguagem: ${repo.linguagem}, Estrelas: ${repo.estrelas}, Descrição: ${repo.descricao || "N/A"}`)
 }
 
-exibirRepositorio(repo);
+exibirRepositorio(meuRepo);
         
 
 
